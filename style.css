@@ -1,0 +1,116 @@
+/* Global Styles */
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #fafafa;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f4f4f4;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header .logo {
+  width: 100px;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+/* Navigation */
+nav {
+  background-color: #222;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  display: block;
+  padding: 1rem 1.5rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+/* Hamburger (mobile) */
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: white;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+/* Main */
+main {
+  padding: 2rem;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.featured .album-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.album-cards a {
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+}
+
+.album-cards img {
+  width: 180px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  transition: transform 0.2s;
+}
+
+.album-cards img:hover {
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f4f4f4;
+  margin-top: 3rem;
+}
+
+/* Responsive */
+@media(max-width:768px){
+  nav ul {
+    flex-direction: column;
+    display: none;
+  }
+  nav ul.show {
+    display: flex;
+  }
+  .hamburger {
+    display: block;
+  }
+}
