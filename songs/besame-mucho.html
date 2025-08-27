@@ -3,8 +3,63 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bésame Mucho - Beatles Encyclopedia</title>
+  <title>Bésame Mucho – Beatles Encyclopedia</title>
   <link rel="stylesheet" href="../style.css">
+  <style>
+    /* Song Page Specific Styles */
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+      line-height: 1.7;
+    }
+
+    .song-info {
+      background-color: #f5f5f5;
+      border-left: 6px solid #222;
+      padding: 1rem 1.5rem;
+      margin-bottom: 2rem;
+      border-radius: 8px;
+    }
+
+    .recording-sessions table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 2rem;
+    }
+
+    .recording-sessions th,
+    .recording-sessions td {
+      border: 1px solid #ddd;
+      padding: 0.75rem;
+      text-align: left;
+    }
+
+    .recording-sessions th {
+      background-color: #222;
+      color: #fff;
+    }
+
+    section h2 {
+      border-bottom: 2px solid #222;
+      padding-bottom: 0.25rem;
+      margin-bottom: 1rem;
+      color: #222;
+    }
+
+    .notes, .technical, .references {
+      margin-bottom: 2rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #f4f4f4;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -12,7 +67,7 @@
     <h1>Bésame Mucho</h1>
   </header>
 
-  <nav>
+  <nav class="site-nav">
     <ul>
       <li><a href="../index.html">Home</a></li>
       <li><a href="../albums/">Albums</a></li>
@@ -23,6 +78,7 @@
 
   <main>
     <section class="song-info">
+      <h2>Song Overview</h2>
       <p><strong>Type:</strong> Cover / First EMI Session</p>
       <p><strong>Year:</strong> 1962</p>
       <p><strong>Writers:</strong> Consuelo Velázquez</p>
@@ -32,36 +88,51 @@
 
     <section class="recording-sessions">
       <h2>Recording Session</h2>
-      <ul>
-        <li><strong>Date:</strong> 6 June 1962</li>
-        <li><strong>Studio:</strong> EMI, Abbey Road, Studio Two</li>
-        <li><strong>Producer:</strong> George Martin</li>
-        <li><strong>Personnel:</strong>
-          <ul>
-            <li>John Lennon – lead vocals, rhythm guitar</li>
-            <li>Paul McCartney – bass, backing vocals</li>
-            <li>George Harrison – lead guitar, backing vocals</li>
-            <li>Ringo Starr – drums</li>
-          </ul>
-        </li>
-        <li><strong>Takes:</strong> multiple takes recorded; exact take info in Lewisohn</li>
-      </ul>
+      <table>
+        <tr>
+          <th>Date</th>
+          <td>6 June 1962</td>
+        </tr>
+        <tr>
+          <th>Studio</th>
+          <td>EMI, Abbey Road, Studio Two</td>
+        </tr>
+        <tr>
+          <th>Producer</th>
+          <td>George Martin</td>
+        </tr>
+        <tr>
+          <th>Personnel</th>
+          <td>
+            <ul>
+              <li>John Lennon – lead vocals, rhythm guitar</li>
+              <li>Paul McCartney – bass, backing vocals</li>
+              <li>George Harrison – lead guitar, backing vocals</li>
+              <li>Ringo Starr – drums</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <th>Takes</th>
+          <td>Multiple takes recorded; exact take info in Lewisohn</td>
+        </tr>
+      </table>
     </section>
 
     <section class="notes">
       <h2>Notes & Anecdotes</h2>
-      <p>This session was aimed at tracking their first EMI single, which would eventually be “Love Me Do.” Though “Bésame Mucho” was never released as a single, it marks the very first time the Beatles entered EMI studios under George Martin’s supervision.</p>
+      <p>This session was aimed at tracking their first EMI single, which would eventually be “Love Me Do.” Though “Bésame Mucho” was never released as a single, it marks the very first time the Beatles entered EMI studios under George Martin’s supervision. The band’s enthusiasm and energy during this session foreshadowed their rapid rise to fame.</p>
     </section>
 
     <section class="technical">
       <h2>Technical Details</h2>
-      <p>Mono recording, 4-track setup at Abbey Road Studio Two. Tape speed, mic setup, and other technical details can be referenced from Hammack's manuals.</p>
+      <p>Mono recording on a 4-track setup at Abbey Road Studio Two. Tape speed, mic placement, and additional recording techniques are documented in Hammack’s manuals. This session represents the beginning of the Beatles’ collaboration with George Martin as producer.</p>
     </section>
 
   </main>
 
   <footer>
-    <p>&copy; 2025 Beatles Encyclopedia</p>
+    <p>&copy; 2025 Beatles Encyclopedia | All rights reserved</p>
   </footer>
 </body>
 </html>
