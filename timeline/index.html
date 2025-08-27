@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beatles Timeline – Beatles Encyclopedia</title>
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .timeline {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .timeline-event {
+      background-color: #f5f5f5;
+      padding: 1rem 1.5rem;
+      border-left: 6px solid #222;
+      border-radius: 8px;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .timeline-event:hover {
+      transform: scale(1.02);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .timeline-event h2 {
+      margin-top: 0;
+      font-size: 1.25rem;
+      color: #222;
+    }
+
+    .timeline-event p {
+      margin: 0.5rem 0;
+    }
+
+    .timeline-event a {
+      display: inline-block;
+      margin-top: 0.5rem;
+      color: #fff;
+      background-color: #222;
+      padding: 0.4rem 0.8rem;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 0.9rem;
+    }
+
+    .timeline-event a:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="../assets/images/logo.png" alt="Beatles Encyclopedia Logo" class="logo">
+    <h1>Beatles Timeline</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../timeline/">Timeline</a></li>
+      <li><a href="../songs/">Songs</a></li>
+      <li><a href="../albums/">Albums</a></li>
+      <li><a href="../band/">Band Members</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="timeline">
+      <!-- Example Event -->
+      <div class="timeline-event">
+        <h2>6 June 1962 – First EMI Session</h2>
+        <p>Recorded: Bésame Mucho, Love Me Do, P.S. I Love You, Ask Me Why.</p>
+        <p>Producers: George Martin, Ron Richards. Engineers: Norman Smith, Chris Neal.</p>
+        <a href="../sessions/1962-06-06.html">Read Full Session Notes</a>
+      </div>
+
+      <div class="timeline-event">
+        <h2>11 September 1962 – First Single Released</h2>
+        <p>Love Me Do / P.S. I Love You released in the UK on Parlophone.</p>
+        <a href="../songs/love-me-do.html">Song Details</a>
+      </div>
+
+      <div class="timeline-event">
+        <h2>5 October 1962 – Ringo Starr Joins the Band</h2>
+        <p>Ringo Starr replaces Pete Best on drums before recording sessions continue.</p>
+      </div>
+
+      <!-- Add more timeline events here -->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Beatles Encyclopedia | Chronological Hub</p>
+  </footer>
+</body>
+</html>
