@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bésame Mucho - Beatles Encyclopedia</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header>
+    <img src="../assets/images/logo.png" alt="Beatles Encyclopedia Logo" class="logo">
+    <h1>Bésame Mucho</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../albums/">Albums</a></li>
+      <li><a href="../songs/">Songs</a></li>
+      <li><a href="../band/">Band Members</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="song-info">
+      <p><strong>Type:</strong> Cover / First EMI Session</p>
+      <p><strong>Year:</strong> 1962</p>
+      <p><strong>Writers:</strong> Consuelo Velázquez</p>
+      <p><strong>First Recorded By:</strong> The Beatles (EMI Studio 2, London)</p>
+      <p><strong>Purpose of Session:</strong> To record the band’s first single for EMI</p>
+    </section>
+
+    <section class="recording-sessions">
+      <h2>Recording Session</h2>
+      <ul>
+        <li><strong>Date:</strong> 6 June 1962</li>
+        <li><strong>Studio:</strong> EMI, Abbey Road, Studio Two</li>
+        <li><strong>Producer:</strong> George Martin</li>
+        <li><strong>Personnel:</strong>
+          <ul>
+            <li>John Lennon – lead vocals, rhythm guitar</li>
+            <li>Paul McCartney – bass, backing vocals</li>
+            <li>George Harrison – lead guitar, backing vocals</li>
+            <li>Ringo Starr – drums</li>
+          </ul>
+        </li>
+        <li><strong>Takes:</strong> multiple takes recorded; exact take info in Lewisohn</li>
+      </ul>
+    </section>
+
+    <section class="notes">
+      <h2>Notes & Anecdotes</h2>
+      <p>This session was aimed at tracking their first EMI single, which would eventually be “Love Me Do.” Though “Bésame Mucho” was never released as a single, it marks the very first time the Beatles entered EMI studios under George Martin’s supervision.</p>
+    </section>
+
+    <section class="technical">
+      <h2>Technical Details</h2>
+      <p>Mono recording, 4-track setup at Abbey Road Studio Two. Tape speed, mic setup, and other technical details can be referenced from Hammack's manuals.</p>
+    </section>
+
+    <section class="references">
+      <h2>References</h2>
+      <ul>
+        <li>Lewisohn, Mark. <em>The Complete Beatles Recording Sessions</em></li>
+        <li>The Beatles. <em>Anthology</em></li>
+        <li>Hammack, Jerry. <em>The Beatles Recording Reference Manuals</em></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Beatles Encyclopedia</p>
+  </footer>
+</body>
+</html>
