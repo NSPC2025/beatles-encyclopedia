@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beatles Session Diary – Beatles Encyclopedia</title>
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    h1, h2 {
+      color: #222;
+    }
+
+    .session-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .session-card {
+      background-color: #f5f5f5;
+      border-left: 6px solid #222;
+      padding: 1rem 1.5rem;
+      border-radius: 8px;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .session-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    .session-card a {
+      text-decoration: none;
+      color: #222;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+
+    .session-card p {
+      margin: 0.5rem 0 0;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="../assets/images/logo.png" alt="Beatles Encyclopedia Logo" class="logo">
+    <h1>Session Diary</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../albums/">Albums</a></li>
+      <li><a href="../songs/">Songs</a></li>
+      <li><a href="../band/">Band Members</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="intro">
+      <p>Explore detailed day-by-day accounts of Beatles recording sessions, including anecdotes, studio setups, and session personnel. Click any session to read full details.</p>
+    </section>
+
+    <section class="session-list">
+      <!-- Example session card -->
+      <div class="session-card">
+        <a href="1962-06-06.html">6 June 1962 – First EMI Session</a>
+        <p>Bésame Mucho, Love Me Do, P.S. I Love You, Ask Me Why. George Martin & Ron Richards in charge; Norman Smith as engineer. First day in EMI studios.</p>
+      </div>
+
+      <!-- Future sessions -->
+      <div class="session-card">
+        <a href="1962-09-04.html">4 September 1962 – Second EMI Session</a>
+        <p>Recording of Love Me Do and other early tracks. Session notes, anecdotes, and technical details.</p>
+      </div>
+
+      <!-- Add more sessions as needed -->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Beatles Encyclopedia | Session Diary</p>
+  </footer>
+</body>
+</html>
