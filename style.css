@@ -115,3 +115,24 @@ footer {
     display: block;
   }
 }
+/* ===== Extra polish ===== */
+
+/* Make the site title below the logo look better */
+header h1 {
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #222;
+}
+
+/* Smooth hover effect for nav links */
+nav ul li a:hover {
+  background-color: #444;
+  transition: background 0.3s;
+}
+
+/* Keep main content centered and narrower on big screens */
+main {
+  max-width: 1000px;
+  margin: auto;
+}
